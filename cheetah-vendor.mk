@@ -985,7 +985,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/cheetah/proprietary/vendor/etc/init/dump_power.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dump_power.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/fingerprint-goodix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-goodix.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/google.hardware.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/google.hardware.media.c2@1.0-service.rc \
-    vendor/google/cheetah/proprietary/vendor/etc/init/gpuflag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gpuflag.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/hw/init.cheetah.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.cheetah.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/hw/init.gs201.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/hw/init.gs201.storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.storage.rc \
@@ -2752,7 +2751,6 @@ PRODUCT_PACKAGES += \
     libedgetpu_util \
     libexynosdisplay \
     libgf_hal \
-    libgpuflag_aconfig_rust \
     libgril_oem-google \
     libgxp \
     libmemtrack-pixel \
@@ -2837,7 +2835,6 @@ PRODUCT_PACKAGES += \
     dump_exynos_display \
     dump_fingerprint \
     dump_gsc \
-    dump_modem \
     dump_modemlog \
     dump_perf \
     dump_pixel_metrics \
@@ -2849,7 +2846,6 @@ PRODUCT_PACKAGES += \
     dump_thermal \
     dump_trusty \
     dump_umfw_stat \
-    gpuflag \
     android.hardware.authsecret-service.citadel \
     android.hardware.biometrics.fingerprint-service.goodix \
     android.hardware.bluetooth-service.bcmbtlinux \

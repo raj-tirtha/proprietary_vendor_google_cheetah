@@ -748,7 +748,6 @@ PRODUCT_PACKAGES += \
     HotwordEnrollmentXGoogleFUSIONPro \
     OemDmTrigger \
     PixelCameraServices \
-    TetheringEntitlement \
     WfcActivation \
     OemRilHookService \
     PersistentBackgroundCameraServices \
@@ -783,8 +782,6 @@ PRODUCT_PACKAGES += \
     vendor.google.edgetpu_app_service@1.0-service.xml \
     android.hardware.boot-service.default_recovery-pixel.xml \
     android.hardware.health-service.gs201_recovery.xml \
-    dump_modem \
-    gpuflag \
     gs_watchdogd \
     vendor.google.edgetpu_app_service@1.0-service \
     android.hardware.boot-service.default_recovery-pixel \
@@ -987,7 +984,6 @@ PRODUCT_COPY_FILES += \
     vendor/google/cheetah/proprietary/vendor/etc/init/dump_power.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/dump_power.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/fingerprint-goodix.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/fingerprint-goodix.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/google.hardware.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/google.hardware.media.c2@1.0-service.rc \
-    vendor/google/cheetah/proprietary/vendor/etc/init/gpuflag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/gpuflag.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/hw/init.cheetah.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.cheetah.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/hw/init.gs201.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.rc \
     vendor/google/cheetah/proprietary/vendor/etc/init/hw/init.gs201.storage.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/hw/init.gs201.storage.rc \
@@ -2761,7 +2757,6 @@ PRODUCT_PACKAGES += \
     libedgetpu_util \
     libexynosdisplay \
     libgf_hal \
-    libgpuflag_aconfig_rust \
     libgril_oem-google \
     libgxp \
     libmemtrack-pixel \
